@@ -18,10 +18,10 @@ $gray-200: #e9ecef !default;
 $gray-300: #dee2e6 !default;
 $gray-400: #ced4da !default;
 $gray-500: #adb5bd !default;
-$gray-600: #8898aa !default;   // Line footer color
-$gray-700: #525f7f !default;   // Line p color
-$gray-800: #32325d !default;   // Line heading color
-$gray-900: #212529 !default;
+$gray-600: #a7a7a7 !default;   // Line footer color
+$gray-700: #7a7b7c !default;   // Line p color
+$gray-800: #525253 !default;   // Line heading color
+$gray-900: #1f2020 !default;
 $black:    #000 !default;
 
 $grays: () !default;
@@ -67,12 +67,12 @@ $colors: map-merge((
   "gray-dark":  $gray-800
 ), $colors);
 
-$default:       #172b4d !default;
-$primary:       #5e72e4 !default;
+$default:       #222222 !default;
+$primary:       #555555 !default;
 $secondary:     #f4f5f7 !default;
 $success:       $green !default;
 $info:          $teal !default;
-$warning:       $orange !default;
+$warning:       #1b1b1b !default;
 $danger:        $red !default;
 $light:         $gray-500 !default;
 $dark:          $gray-900 !default;
@@ -128,50 +128,50 @@ $shape-colors: map-merge((
 
 $shapes-primary-colors: () !default;
 $shapes-primary-colors: map-merge((
-  "step-1-gradient-bg":         #281483,
-  "step-2-gradient-bg":         #8f6ed5,
-  "step-3-gradient-bg":         #d782d9,
-  "span-1-bg":                  #53f,
-  "span-2-bg":                  #4553ff,
-  "span-3-bg":                  #4f40ff,
-  "span-4-bg":                  #25ddf5,
-  "span-5-bg":                  #1fa2ff
+  "step-1-gradient-bg":         #757579,
+  "step-2-gradient-bg":         #bbbabe,
+  "step-3-gradient-bg":         #d6c8d6,
+  "span-1-bg":                  rgb(229, 226, 243),
+  "span-2-bg":                  #c8ccf8,
+  "span-3-bg":                  #e2e0ff,
+  "span-4-bg":                  #d4faff,
+  "span-5-bg":                  #daeefc
 ), $shapes-primary-colors);
 
 $shapes-default-colors: () !default;
 $shapes-default-colors: map-merge((
-  "step-1-gradient-bg":         #7795f8,
-  "step-2-gradient-bg":         #6772e5,
-  "step-3-gradient-bg":         #555abf,
-  "span-1-bg":                  #7795f8,
-  "span-2-bg":                  #7b9aff,
-  "span-3-bg":                  #6f8ff8,
-  "span-4-bg":                  #76eea7,
-  "span-5-bg":                  #6adaff
+  "step-1-gradient-bg":         #999595,
+  "step-2-gradient-bg":         #788078,
+  "step-3-gradient-bg":         #4e5756,
+  "span-1-bg":                  #444444,
+  "span-2-bg":                  #a0a3ad,
+  "span-3-bg":                  #a1a3a8,
+  "span-4-bg":                  #75817a,
+  "span-5-bg":                  #96a2a7
 ), $shapes-default-colors);
 
 $shapes-light-colors: () !default;
 $shapes-light-colors: map-merge((
-  "step-1-gradient-bg":         #b2cbe1,
-  "step-2-gradient-bg":         #f6f9fc,
-  "step-3-gradient-bg":         #f6f9fc,
+  "step-1-gradient-bg":         #d0d6db,
+  "step-2-gradient-bg":         #a1a7ac,
+  "step-3-gradient-bg":         #888888,
   "span-1-bg":                  #b4cce1,
   "span-2-bg":                  #c5dbef,
-  "span-3-bg":                  #b9d5ed,
-  "span-4-bg":                  #74e4a2,
-  "span-5-bg":                  #008169
+  "span-3-bg":                  #9ca6af,
+  "span-4-bg":                  #c6d8ce,
+  "span-5-bg":                  #586462
 ), $shapes-light-colors);
 
 $shapes-dark-colors: () !default;
 $shapes-dark-colors: map-merge((
-  "step-1-gradient-bg":         #32325d,
-  "step-2-gradient-bg":         #32325d,
-  "step-3-gradient-bg":         #32325d,
-  "span-1-bg":                  #2e2e57,
-  "span-2-bg":                  #2b2b58,
-  "span-3-bg":                  #25254d,
-  "span-4-bg":                  #d782d9,
-  "span-5-bg":                  #008169
+  "step-1-gradient-bg":         #272727,
+  "step-2-gradient-bg":         #545455,
+  "step-3-gradient-bg":         #5c5c5c,
+  "span-1-bg":                  #474747,
+  "span-2-bg":                  #919191,
+  "span-3-bg":                  #9696a7,
+  "span-4-bg":                  #ddcddd,
+  "span-5-bg":                  #727776
 ), $shapes-dark-colors);
 
 
